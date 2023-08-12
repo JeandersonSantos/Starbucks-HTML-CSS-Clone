@@ -1,35 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;700&display=swap');
 
-body{
+body {
     font-family: 'Open Sans', 'sans-serif';
     margin: 0;
 }
-header .line{
+
+header .line {
     background-color: #117050;
     height: 10px;
 }
-.container{
+
+.container {
     max-width: 1140px;
     margin: auto;
 }
-.header--area{
+
+.header--area {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
 }
-.header-left img{
+
+.header-left img {
     width: 64px;
     height: 64px;
 }
-.header--rigth{
+
+.header--rigth {
     display: flex;
     align-items: center;
 }
-.header--search form{
-display: flex;
+
+.header--search form {
+    display: flex;
 }
-.header--search input{
+
+.header--search input {
     font-size: 16px;
     padding: 8px 15px;
     border: 1px solid #999999;
@@ -37,43 +44,51 @@ display: flex;
     width: 100%;
     max-width: 250px;
 }
-.header--search button{
+
+.header--search button {
     border: 0;
     background: transparent;
     margin-left: -30px;
     cursor: pointer;
 }
-.header--search button img{
+
+.header--search button img {
     width: 16px;
     height: 16px;
 }
-.header--menu{
+
+.header--menu {
     margin-left: 50px;
 }
-.header--menu img{
+
+.header--menu img {
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
+
 /*----------SECTION BANNER--------------------------*/
-.banner{
+.banner {
     background-image: url('../images/bg.jpg');
     background-position: center;
     background-size: cover;
     padding-top: 90px;
     padding-bottom: 90px;
-} 
-.banner h1{
-    font-family: 'Oswald','sans-serif';
+}
+
+.banner h1 {
+    font-family: 'Oswald', 'sans-serif';
     font-weight: bold;
-    font-size: 90px;  
+    font-size: 90px;
     line-height: 100px;
     margin: 0;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
 }
-.banner--images{
+
+.banner--images {
     margin-top: 60px;
 }
+
 .banner--images img {
     width: 148px;
     height: 148px;
