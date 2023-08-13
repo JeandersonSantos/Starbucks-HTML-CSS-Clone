@@ -5,11 +5,6 @@ body {
     margin: 0;
 }
 
-header .line {
-    background-color: #117050;
-    height: 10px;
-}
-
 .container {
     max-width: 1140px;
     margin: auto;
@@ -33,7 +28,25 @@ h2{
     font-weight: bold;
     font-size: 35px;
     line-height: 45px;
-    margin: 0;
+    margin-bottom: 20px 0;
+}
+
+.button{
+    display: inline-block  ;
+    border: 2px solid #4545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+.button:hover{
+    color: #fff;
+    background-color: #454545;
+}
+
+header .line {
+    background-color: #117050;
+    height: 10px;
 }
 
 .header--area {
@@ -118,8 +131,11 @@ h2{
     padding: 80px;
 }
 .area1--quote{
-    margin-top: 30px;
     margin-bottom: 30px;
+}
+.area1--text{
+    margin-bottom: 50px;
+    line-height: 25px;
 }
 .area1--img1{
     height: 350px;
