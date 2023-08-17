@@ -214,3 +214,24 @@ header .line {
     background-image: url('../images/bg3.jpg');
     background-position: left; 
 }
+/*---------------- Area 5 -------------------------*/
+.area5{
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+/*--------Footer-------------------------*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+footer div{
+    padding: 50px;
+}
+footer div a{
+    text-decoration: none;
+    color: #fff;
+}
